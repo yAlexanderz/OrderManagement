@@ -1,0 +1,68 @@
+﻿# Arquivos e pastas do Visual Studio
+.vs/
+*.user
+*.suo
+*.csproj.user
+*.VC.db
+*.VC.opendb
+
+# Build
+bin/
+obj/
+out/
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Arquivos temporários
+*.log
+*.tlog
+*.tmp
+*.ide
+
+# Configurações específicas do sistema operacional
+Thumbs.db
+.DS_Store
+
+# Pacotes
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos de publicação
+*.Publish.xml
+
+# Arquivos de banco de dados locais
+*.mdf
+*.ldf
+
+# Configuração temporária do IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Arquivos gerados pelo usuário
+*.bak
+*.swp
+
+# Arquivos de configuração do Rider
+.idea/
+*.iml
+
+# Arquivos do ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Ignorar pacotes do NuGet baixados automaticamente
+*.nuget/
+*.nuspec
+.nuget/
+
+# Logs do sistema
+*.log
